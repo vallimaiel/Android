@@ -28,6 +28,8 @@
         </activity>
         <activity android:name=".SignIn" >
         </activity>
+        <activity android:name=".RecyclerMain" >
+        </activity>
         <activity android:name=".PlaceOrder" >
         </activity>
         <activity android:name=".ConfirmOrder" >

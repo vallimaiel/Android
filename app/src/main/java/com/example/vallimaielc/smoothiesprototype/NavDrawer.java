@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 import static com.example.vallimaielc.smoothiesprototype.R.*;
 
-public class NavDrawer extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,Smoothies.myInterface{
+public class NavDrawer extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,RecyclerAdapter.InterfaceRecycler{
     DrawerLayout drawerLayout;
     NavigationView navView;
     android.support.v7.widget.Toolbar toolBar;

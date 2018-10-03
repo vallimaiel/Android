@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/zzz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/colorTransparentWhite" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorWhite"
+        android:text="-"
+        android:textSize="24sp"
+        tools:text="-" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="@color/colorTeal"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/result"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorWhite"
+        android:text="+"
+        android:textSize="24sp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Servings" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ListView
+            android:layout_marginTop="20dp"
+            android:id="@+id/checkable_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Garnish"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <ListView
+            android:id="@+id/garnish_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Drinkware"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <ListView
+            android:id="@+id/drinkware_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="TOTAL"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_marginLeft="240dp"
+                android:id="@+id/order_total"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                android:text="50"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/rupees"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                android:text="USD"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+        <Button
+
+            android:id="@+id/place_order_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="nextActivity"
+            android:textColor="@color/colorWhite"
+            android:text="Place Order" />
+    </LinearLayout>
+
+</LinearLayout>

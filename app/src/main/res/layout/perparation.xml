@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:text="Place the banana, strawberries, blue berries and coconut milk with lots of ice in a blender.Blend until smooth.Add some ice cubes,straw and granish with strawberries and mint leaves.Ready to serve!Enjoy"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

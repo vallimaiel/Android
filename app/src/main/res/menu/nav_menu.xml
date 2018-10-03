@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/smoothie_details"
+        android:icon="@drawable/ic_action_smoothie"
+        android:title="Smoothie"/>
+    <item android:id="@+id/my_orders"
+        android:icon="@drawable/ic_action_orders"
+        android:title="My Orders"/>
+    <item android:id="@+id/sign_out"
+        android:icon="@drawable/ic_action_signout"
+        android:title="Sign Out"/>
+
+
+</menu>
